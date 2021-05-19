@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledWrapper = styled.div `
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background: url(${props => props.img});
     background-size:cover;
@@ -14,7 +14,11 @@ const StyledWrapper = styled.div `
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    overflow-y: none;
+    padding:10px;
+    box-shadow: 0px 15px 50px rgba(0,0,0,.8);
+
+    
+
 
     ::after{
         position:absolute;
@@ -24,6 +28,7 @@ const StyledWrapper = styled.div `
         width: 100%;
         height: 100%;
         background-color:rgba(0,0,0,.6);
+
        
     }
    
@@ -35,6 +40,7 @@ const StyledTrapezoid = styled.div `
     left: 40%;
     border-bottom: 100vh solid ${({theme}) => theme.primary};
     border-left: 25vw solid transparent;
+
     
     
     

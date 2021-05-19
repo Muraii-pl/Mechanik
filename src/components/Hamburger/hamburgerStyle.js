@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../assets/styles/theme";
+
 
 const StyledHamburger = styled.button`
     border:none;

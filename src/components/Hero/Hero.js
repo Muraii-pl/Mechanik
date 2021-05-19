@@ -10,6 +10,9 @@ const ButtonHero = styled(ButtonS)`
     padding:10px 20px;
     margin-top:10px;
     cursor:pointer;
+    font-weight: 700;
+    letter-spacing: .1rem;
+
 `
 
 

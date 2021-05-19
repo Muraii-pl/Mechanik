@@ -21,7 +21,7 @@ const MobileMenu = ({isOpen}) => {
         'Opinie',
         'Kontakt'
     ]
-    console.log(isOpen)
+    
     return (
        
         <StyledWrapper isOpen={isOpen}>
