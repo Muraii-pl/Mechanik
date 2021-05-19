@@ -1,9 +1,10 @@
 import React from 'react'
-import MainTemplate from './components/templates/MainTemplate'
+import IndexPage from './components/pages';
+
 
 function App() {
   return (
-    <MainTemplate/>
+    <IndexPage/>
   );
 }
 

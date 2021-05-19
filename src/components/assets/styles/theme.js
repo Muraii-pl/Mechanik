@@ -1,8 +1,8 @@
 export const theme = {
-    primary: "#1223E",
+    primary: "#12232E",
     secondary: "#203647",
     tertiary : "#007CC7",
-    quaternary : "4DA8DA",
+    quaternary : "#4DA8DA",
     black : "#000",
     white : "#fff",
     grey : "#F6F5F5",

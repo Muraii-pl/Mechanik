@@ -13,8 +13,8 @@ import { StyledWrapper } from './headerStyle'
 const Header = () => {
     return (
         <StyledWrapper>
-            <Logo/>
-            <Hamburger/>
+                 <Logo/>
+                 <Hamburger/>
         </StyledWrapper>
     )
 }
