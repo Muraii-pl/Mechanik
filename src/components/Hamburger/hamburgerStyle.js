@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { theme } from "../assets/styles/theme";
 
 const StyledHamburger = styled.button`
     border:none;
     background:none;
     padding:15px;
+    z-index: 9999;
 `
 
 const InnerHamburger = styled.div`
@@ -11,7 +13,8 @@ const InnerHamburger = styled.div`
     width:28px;
     height:2px;
     border-radius:2px;
-    background-color:${({theme}) => theme.white};
+    background-color:${({theme,isOpen}) => isOpen ? 'transparent' : theme.white};
+    transition: background-color .2s .25s ease-in-out;
 
 
     ::after,::before{
@@ -25,9 +28,13 @@ const InnerHamburger = styled.div`
     }
     ::before{
         top:-8px;
+        transform: translateY(${({isOpen}) => isOpen ? '8px': '0px' }) rotate(${({isOpen})=> isOpen ? '-315deg': '0'});
+        transition:transform .2s 0.25s ease-in-out;
     }
     ::after{
         top:8px;
+        transform: translateY(${({isOpen}) => isOpen ? '-8px':'0px' }) rotate(${({isOpen})=> isOpen ? '315deg': '0'});
+        transition:transform .2s 0.25s ease-in-out;
     }
 
    

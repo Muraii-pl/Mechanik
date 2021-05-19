@@ -1,9 +1,9 @@
 import React from 'react'
 import { StyledHamburger,InnerHamburger } from './hamburgerStyle'
-const Hamburger = () => {
+const Hamburger = ({isOpen,...props}) => {
     return (
-        <StyledHamburger>
-            <InnerHamburger/>
+        <StyledHamburger {...props}>
+            <InnerHamburger isOpen={isOpen}/>
         </StyledHamburger>
     )
 }

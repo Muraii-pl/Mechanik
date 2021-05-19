@@ -5,6 +5,7 @@ const LogoText = styled.p `
     padding:15px;
     text-align:center;
     filter:blur(0px);
+    z-index: 9999;
 `
 
 export default LogoText
