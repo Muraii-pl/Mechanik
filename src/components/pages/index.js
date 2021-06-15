@@ -5,6 +5,7 @@ import Hero from '../Hero/Hero';
 import PriceList from '../PriceList/PriceList';
 import Opinion from '../Opinion/Opinion';
 import LikeCar from '../LikeCar/LikeCar';
+import Contact from '../Contact/Contact'
 
 
 const IndexPage = () => {
@@ -14,6 +15,7 @@ const IndexPage = () => {
             <PriceList/>
             <Opinion/>
             <LikeCar/>
+            <Contact/>
         </MainTemplate>
     )
 }
