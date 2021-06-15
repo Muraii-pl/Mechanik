@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledWrapper = styled.div`
- max-width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ const StyledWrapper = styled.div`
 
 `
 const Frame = styled.iframe`
-    width: 75%;
+    max-width: 75%;
     min-height: 50%;
     aspect-ratio: 1/1;
 `
@@ -25,7 +25,7 @@ const StyledText = styled.p `
 `
 const List = styled.ul`
     list-style: none;
-    width: 75%;
+    max-width: 75%;
     display: flex;
     flex-flow: column wrap;
 `
@@ -33,7 +33,7 @@ const ListElement = styled.li `
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    margin: .5rem 0
+    margin: .5rem 0;
     `
 const ListElementWrapper = styled.div`
     display: flex;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledWrapper = styled.footer`
-    width: 100vw;
+    max-width: 100vw;
     height: 25vh;
     background-color: ${({theme}) => theme.secondary};
     display: flex;
