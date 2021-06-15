@@ -1,9 +1,10 @@
 import React from 'react'
 import LogoText from './logoStyle'
 
-const Logo = () => {
+const Logo = props => {
+    const {value} = props
     return (
-        <LogoText>
+        <LogoText props={value} >
             Logo
         </LogoText>
     )

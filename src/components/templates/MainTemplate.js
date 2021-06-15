@@ -4,6 +4,7 @@ import GlobalStyle from '../assets/styles/GlobalStyle'
 import SEO from '../../components/SEO/SEO'
 import { theme } from '../assets/styles/theme'
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 
 const MainTemplate = ({children}) => {
@@ -15,7 +16,7 @@ const MainTemplate = ({children}) => {
                 <>
                 <Header/>
                 {children}
-                
+                <Footer/>
                 </>
             </ThemeProvider>
         </>

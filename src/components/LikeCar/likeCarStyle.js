@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledWrapper = styled.div `
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -18,6 +18,7 @@ const StyledText = styled.p `
     width: 100%;
     font-weight: 600;
     text-align: center;
+    margin-top: 2.5rem;
     font-size: ${({theme})=> theme.font.size.l};
 `
 
