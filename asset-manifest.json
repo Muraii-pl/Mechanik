@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mechanik/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/Mechanik/static/js/main.524bec34.chunk.js",
-    "main.js.map": "/Mechanik/static/js/main.524bec34.chunk.js.map",
+    "main.js": "/Mechanik/static/js/main.1464d7ff.chunk.js",
+    "main.js.map": "/Mechanik/static/js/main.1464d7ff.chunk.js.map",
     "runtime-main.js": "/Mechanik/static/js/runtime-main.b0a6ddef.js",
     "runtime-main.js.map": "/Mechanik/static/js/runtime-main.b0a6ddef.js.map",
     "static/js/2.08fbf889.chunk.js": "/Mechanik/static/js/2.08fbf889.chunk.js",
@@ -11,12 +11,17 @@
     "static/css/main.6dea0f05.chunk.css.map": "/Mechanik/static/css/main.6dea0f05.chunk.css.map",
     "static/js/2.08fbf889.chunk.js.LICENSE.txt": "/Mechanik/static/js/2.08fbf889.chunk.js.LICENSE.txt",
     "static/media/Hero-photoV2.a6abf12e.png": "/Mechanik/static/media/Hero-photoV2.a6abf12e.png",
+    "static/media/adres.d562b7d4.svg": "/Mechanik/static/media/adres.d562b7d4.svg",
     "static/media/audi.cb591db6.svg": "/Mechanik/static/media/audi.cb591db6.svg",
     "static/media/cennik-icon.165aaa92.svg": "/Mechanik/static/media/cennik-icon.165aaa92.svg",
+    "static/media/email.263cccec.svg": "/Mechanik/static/media/email.263cccec.svg",
+    "static/media/facebook-icon.28213043.svg": "/Mechanik/static/media/facebook-icon.28213043.svg",
     "static/media/hands.7e0d1b87.svg": "/Mechanik/static/media/hands.7e0d1b87.svg",
+    "static/media/instagram-icon.076aee4b.svg": "/Mechanik/static/media/instagram-icon.076aee4b.svg",
     "static/media/kontakt-icon.b3c7b459.svg": "/Mechanik/static/media/kontakt-icon.b3c7b459.svg",
     "static/media/oferta-icon.2e1e88fb.svg": "/Mechanik/static/media/oferta-icon.2e1e88fb.svg",
     "static/media/opinie-icon.7c3a2523.svg": "/Mechanik/static/media/opinie-icon.7c3a2523.svg",
+    "static/media/telephone.1281ab46.svg": "/Mechanik/static/media/telephone.1281ab46.svg",
     "static/media/volkswagen.c4c75dce.svg": "/Mechanik/static/media/volkswagen.c4c75dce.svg",
     "static/media/wallet.a4856363.svg": "/Mechanik/static/media/wallet.a4856363.svg"
   },
@@ -24,6 +29,6 @@
     "static/js/runtime-main.b0a6ddef.js",
     "static/js/2.08fbf889.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.524bec34.chunk.js"
+    "static/js/main.1464d7ff.chunk.js"
   ]
 }
